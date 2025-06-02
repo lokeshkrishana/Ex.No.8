@@ -17,58 +17,52 @@ To explore how various prompting techniques can be used to generate and manipula
 5.	Record outputs and analyze based on realism, clarity, consistency, and creative control.
 
 ## Prompting Techniques and Examples:
-## 1. Zero-Shot Prompting
+# 1.Zero-Shot Prompting (Revised)
+Type: Voice Narration
 
-• Type: "summarize"
+# Prompt:
+"Generate the voice of a man reading a weather report on a foggy morning."
 
-• Prompt: "Summarize this article in three bullet points."
+Description: A neutral male voice delivering a short, plain weather update with no background noise or emotion.
 
-• Description: A man speaking a simple straightforward sentence, neutral tone, no emotion.
+Technique: Zero-Shot Prompting – A single instruction without guidance or examples.
 
-• Technique: Zero-Shot Prompting – A direct instruction without examples.
+Observation:
+The voice was clear and neutral, but lacked atmospheric touches (like breathiness or foggy ambiance). The narration did not capture the context fully, reaffirming that zero-shot prompts often fall short in delivering immersive audio effects without more descriptive cues.
 
-• Observation: The model responded to the request with a basic narration tone but didn’t include the environmental footsteps or echoing effect expected. This demonstrates the limitation of zero-shot prompts in highly contextual audio tasks.
+# 2. Role-Based Prompting (Revised)
+Type: Dramatic Voice Narration (Acting)
 
-## 2. Role-Based Prompting
-• Type:  action voice narration (acting)
+# Prompt:
+"You are a fantasy queen delivering a final speech to her people before a great war. Speak with emotion and authority."
 
-• Prompt: "Vance slips a combat knife from his belt and moves. Low and silent. Two guards ahead—chattering in Czech, smoking. He counts three heartbeats.."
+Description: A female voice embodying a regal, emotional character, with dramatic pacing and tone.
 
-• Description: A woman speaking her lines seriously in a dramatic fashion, fitting for film dialogue.
+Technique: Role-Based Prompting – The model adopts a character role to simulate a theatrical performance.
 
-• Technique: Role-Based Prompting – AI assumes a persona or acting role.
+Observation:
+The output was expressive, filled with pauses, emphasis, and conviction. The role-based prompt effectively triggered character-level voice acting, showing strong emotional engagement in the AI’s delivery.
 
-• Observation: The AI correctly adopted a action tone, indicating success in simulating actor-style delivery. Role prompting helped generate a natural, emotional voice aligned with theatrical performance.
+# 3. Chain-of-Thought Prompting (Revised)
+Type: Background Music
 
-## 3. Chain-of-Thought (CoT) Prompting
-• Type: retro music
+# Prompt:
+"Compose background music for a fantasy video game menu screen.
+Step 1: Use soft harp arpeggios in a major scale.
+Step 2: Add subtle ambient pads for a magical feel.
+Step 3: Include light wind chimes to enhance atmosphere.
+Step 4: Keep tempo slow and calm to encourage user focus."
 
-• Prompt: "Generate retro music for a short documentary intro."
+Description: The music should be relaxing, mystical, and suitable for idle moments on a game menu.
 
-• Description: Exploratory, instrumental, calm music with ambient texture and low tempo.
+Technique: Chain-of-Thought Prompting – The prompt breaks the composition into clear musical layers.
 
-• Technique: Chain-of-Thought Prompting – Intended structure based on musical role.
+Observation:
+The AI followed the steps well, producing a gentle, layered track with fantasy elements. This showcased CoT prompting’s strength in controlled, genre-specific music generation.
 
-• Observation: The result aligned well with the goal of calm and documentary-style introduction. The model successfully followed the mood and instrumental layering, validating the effectiveness of structured music prompting.
-
-
-## Tools Used for Audio Generation:
-•	ElevenLabs – Text-to-speech voice narration with tone control
-
-•	Suno.ai – Text-to-music generation
-
-## Analysis Parameters:
-•	Realism and clarity of generated sound/narration
-
-•	Style alignment with described mood and instrumentation
-
-•	Consistency in voice or tone in few-shot examples
-
-•	Responsiveness to structured instructions (Chain-of-Thought)
 
 ## Google Drive:
-https://drive.google.com/drive/folders/1_tHTTncZB-VZrphlfS7F5uyBuHtV9arR?usp=drive_link\
-
+https://drive.google.com/drive/folders/1_tHTTncZB-VZrphlfS7F5uyBuHtV9arR?usp=drive_link
 ## Result:
 The prompting techniques (zero-shot, few-shot, and CoT) were executed successfully. Each approach demonstrated unique control over the generation process, confirming their usefulness in different audio-related use cases. Tools responded effectively to prompt structure and produced realistic, stylistically rich audio content.
 
